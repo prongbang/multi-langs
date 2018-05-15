@@ -1,0 +1,14 @@
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v3.2.5
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:9000
+{"time":"2018-02-03T22:22:02.948176135+07:00","id":"","remote_ip":"::1","host":"localhost:9000","method":"GET","uri":"/api/v1/attributes?lang=th","status":200, "latency":7368057,"latency_human":"7.368057ms","bytes_in":0,"bytes_out":1390}
+{"time":"2018-02-03T22:22:10.392859974+07:00","id":"","remote_ip":"::1","host":"localhost:9000","method":"GET","uri":"/api/v1/attributes?lang=en","status":200, "latency":5183916,"latency_human":"5.183916ms","bytes_in":0,"bytes_out":855}
+{"time":"2018-02-03T22:22:42.726939166+07:00","id":"","remote_ip":"::1","host":"localhost:9000","method":"GET","uri":"/api/v1/attributes?app=hotel-connect&lang=th","status":200, "latency":5883578,"latency_human":"5.883578ms","bytes_in":0,"bytes_out":1390}
+{"time":"2018-02-03T22:23:35.229387965+07:00","id":"","remote_ip":"::1","host":"localhost:9000","method":"GET","uri":"/","status":200, "latency":3976323,"latency_human":"3.976323ms","bytes_in":0,"bytes_out":1570}

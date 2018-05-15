@@ -1,0 +1,30 @@
+version: '3'
+services: 
+  rethinkdb:
+    image: rethinkdb:2.3.6
+    volumes: 
+      - ./data/rethink:/data
+    ports:
+      - "8080:8080"
+      - "28015:28015"
+      - "29015:29015"
+    command: rethinkdb --bind all --initial-password root-password
+    restart: always
+  redis:
+    image: redis:3.2.11-alpine
+    volumes: 
+      - ./data/redis:/data
+    ports: 
+      - "6379:6379"
+    restart: always
+  web:
+    build: .
+    volumes:
+      - ".:/usr/src/multi-langs"
+    ports:
+      - "9000:9000"
+    depends_on:
+      - redis
+      - rethinkdb
+    command: go run main.go
+    restart: always

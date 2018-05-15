@@ -1,0 +1,13 @@
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v3.2.5
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:9000
+{"time":"2018-02-03T21:02:26.682312614+07:00","id":"","remote_ip":"::1","host":"localhost:9000","method":"GET","uri":"/","status":200, "latency":4477458,"latency_human":"4.477458ms","bytes_in":0,"bytes_out":1401}
+{"time":"2018-02-03T21:02:27.098848959+07:00","id":"","remote_ip":"::1","host":"localhost:9000","method":"GET","uri":"/favicon.ico","status":200, "latency":4922294,"latency_human":"4.922294ms","bytes_in":0,"bytes_out":3870}
+{"time":"2018-02-03T21:17:56.856016573+07:00","id":"","remote_ip":"::1","host":"localhost:9000","method":"GET","uri":"/","status":200, "latency":9397827,"latency_human":"9.397827ms","bytes_in":0,"bytes_out":1401}

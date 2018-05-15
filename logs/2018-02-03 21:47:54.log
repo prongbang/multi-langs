@@ -1,0 +1,14 @@
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v3.2.5
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:9000
+{"time":"2018-02-03T21:48:01.405709505+07:00","level":"ERROR","prefix":"echo","file":"echo.go","line":"284","message":"code=401, message=Invalid or expired jwt"}
+{"time":"2018-02-03T21:48:01.405761795+07:00","id":"","remote_ip":"::1","host":"localhost:9000","method":"GET","uri":"/api/v1/attributes?app=hotel-connect","status":401, "latency":132640,"latency_human":"132.64µs","bytes_in":0,"bytes_out":100}
+{"time":"2018-02-03T21:50:19.379603015+07:00","id":"","remote_ip":"::1","host":"localhost:9000","method":"GET","uri":"/api/v1/attributes?app=hotel-connect","status":200, "latency":9474020,"latency_human":"9.47402ms","bytes_in":0,"bytes_out":1570}
+{"time":"2018-02-03T21:50:26.043422972+07:00","id":"","remote_ip":"::1","host":"localhost:9000","method":"GET","uri":"/api/v1/attributes?app=hotel-connectl","status":200, "latency":2947274,"latency_human":"2.947274ms","bytes_in":0,"bytes_out":4}

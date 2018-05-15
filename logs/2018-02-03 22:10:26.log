@@ -1,0 +1,11 @@
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v3.2.5
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:9000
+{"time":"2018-02-03T22:10:40.52674865+07:00","id":"","remote_ip":"::1","host":"localhost:9000","method":"GET","uri":"/api/v1/attributes?app=hotel-connect&lang=th","status":200, "latency":8464374,"latency_human":"8.464374ms","bytes_in":0,"bytes_out":1390}

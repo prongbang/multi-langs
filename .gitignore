@@ -3,3 +3,4 @@
 *.pyc
 staticfiles
 .env
+/front-end

@@ -1,0 +1,16 @@
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v3.2.5
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:9000
+{"time":"2018-02-03T22:24:55.333671159+07:00","id":"","remote_ip":"::1","host":"localhost:9000","method":"GET","uri":"/","status":200, "latency":249697,"latency_human":"249.697µs","bytes_in":0,"bytes_out":716}
+{"time":"2018-02-03T22:24:55.368843895+07:00","id":"","remote_ip":"::1","host":"localhost:9000","method":"GET","uri":"/static/js/main.js","status":200, "latency":11171473,"latency_human":"11.171473ms","bytes_in":0,"bytes_out":8942}
+{"time":"2018-02-03T22:24:55.697326803+07:00","id":"","remote_ip":"::1","host":"localhost:9000","method":"GET","uri":"/favicon.ico","status":200, "latency":593084,"latency_human":"593.084µs","bytes_in":0,"bytes_out":3870}
+{"time":"2018-02-03T22:43:47.44654581+07:00","id":"","remote_ip":"::1","host":"localhost:9000","method":"GET","uri":"/api/v1/attributes?app=hotel-connect&lang=th","status":200, "latency":29822585,"latency_human":"29.822585ms","bytes_in":0,"bytes_out":1390}
+{"time":"2018-02-03T22:43:57.827930238+07:00","id":"","remote_ip":"::1","host":"localhost:9000","method":"POST","uri":"/api/v1/attributes","status":400, "latency":5284234,"latency_human":"5.284234ms","bytes_in":151,"bytes_out":25}
+{"time":"2018-02-03T22:44:01.023851959+07:00","id":"","remote_ip":"::1","host":"localhost:9000","method":"POST","uri":"/api/v1/attributes","status":400, "latency":2644562,"latency_human":"2.644562ms","bytes_in":151,"bytes_out":25}

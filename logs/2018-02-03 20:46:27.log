@@ -1,0 +1,17 @@
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v3.2.5
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:9000
+{"time":"2018-02-03T20:46:40.977870406+07:00","id":"","remote_ip":"::1","host":"localhost:9000","method":"GET","uri":"/","status":200, "latency":18249555,"latency_human":"18.249555ms","bytes_in":0,"bytes_out":1401}
+{"time":"2018-02-03T20:49:50.055695423+07:00","id":"","remote_ip":"::1","host":"localhost:9000","method":"GET","uri":"/","status":200, "latency":5512910,"latency_human":"5.51291ms","bytes_in":0,"bytes_out":1401}
+{"time":"2018-02-03T20:49:54.151672992+07:00","id":"","remote_ip":"::1","host":"localhost:9000","method":"GET","uri":"/","status":200, "latency":4684670,"latency_human":"4.68467ms","bytes_in":0,"bytes_out":1401}
+{"time":"2018-02-03T20:49:56.838506733+07:00","id":"","remote_ip":"::1","host":"localhost:9000","method":"GET","uri":"/","status":200, "latency":9366123,"latency_human":"9.366123ms","bytes_in":0,"bytes_out":1401}
+{"time":"2018-02-03T20:50:11.42252342+07:00","id":"","remote_ip":"::1","host":"localhost:9000","method":"GET","uri":"/","status":200, "latency":5481738,"latency_human":"5.481738ms","bytes_in":0,"bytes_out":1401}
+{"time":"2018-02-03T20:56:36.004874834+07:00","id":"","remote_ip":"::1","host":"localhost:9000","method":"GET","uri":"/","status":200, "latency":6561286,"latency_human":"6.561286ms","bytes_in":0,"bytes_out":1401}
+{"time":"2018-02-03T20:56:36.460033697+07:00","id":"","remote_ip":"::1","host":"localhost:9000","method":"GET","uri":"/favicon.ico","status":200, "latency":7851494,"latency_human":"7.851494ms","bytes_in":0,"bytes_out":3870}
